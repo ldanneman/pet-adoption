@@ -1,0 +1,31 @@
+.card {
+  width: 22rem;
+  margin: 1rem auto auto auto;
+}
+#card {
+  background-color: #00a7ff;
+}
+
+.black {
+  color: #ffeb34;
+}
+
+.search-nav {
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+.search-input {
+  width: 22rem;
+  margin: auto;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 2px 5px 0 0;
+}
+
+.search-button {
+}
+
+.card-image {
+  height: 150px;
+}

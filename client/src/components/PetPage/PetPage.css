@@ -1,0 +1,132 @@
+.grid-container {
+  margin: auto;
+  width: 75%;
+  display: grid;
+  border-radius: 4px;
+  background-color: #ffeb34;
+  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-rows: 1fr 1.3fr 0.7fr;
+  gap: 8px 6px;
+  grid-template-areas:
+    "pet-img details"
+    "pet-img description"
+    "adopt-me misc";
+}
+
+.grid {
+  margin: 1rem;
+}
+.pet-img {
+  grid-area: pet-img;
+}
+.details {
+  grid-area: details;
+}
+.description {
+  grid-area: description;
+  background-color: #00a7ff;
+  color: #ffeb34;
+  border-radius: 4px;
+  margin-right: 1.5rem;
+}
+.adopt-me {
+  grid-area: adopt-me;
+}
+.misc {
+  grid-area: misc;
+}
+
+.title {
+  font-weight: bold;
+}
+.adopt-button {
+  width: 75%;
+  height: 50%;
+}
+
+.grid-container-details {
+  display: grid;
+  background-color: #00a7ff;
+  color: #ffeb34;
+  border-radius: 4px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 18px 0px;
+  margin: 1.5rem 1.5rem 0 0;
+  grid-template-areas:
+    "tone one"
+    "ttwo two"
+    "tthree three"
+    "tfour four"
+    "tfive five";
+}
+.tone {
+  grid-area: tone;
+}
+.ttwo {
+  grid-area: ttwo;
+}
+.tthree {
+  grid-area: tthree;
+}
+.tfour {
+  grid-area: tfour;
+}
+.tfive {
+  grid-area: tfive;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+
+.c-image {
+  width: 18rem;
+}
+
+.grid-container-misc {
+  background-color: #00a7ff;
+  color: #ffeb34;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 5px;
+  margin-right: 1.5rem;
+  grid-template-areas:
+    "m1 m2 m3"
+    "m4 m5 m6";
+}
+.m1 {
+  grid-area: m1;
+}
+.m2 {
+  grid-area: m2;
+}
+.m3 {
+  grid-area: m3;
+}
+.m4 {
+  grid-area: m4;
+}
+.m5 {
+  grid-area: m5;
+}
+.m6 {
+  grid-area: m6;
+}
+
+#blue5 {
+  background-color: #00a7ff;
+}

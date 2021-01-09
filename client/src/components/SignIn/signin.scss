@@ -1,0 +1,78 @@
+.sign-in-div,
+.sign-up {
+    padding-top: 1rem;
+
+}
+
+.sign-in {
+    background-color: #00a7ff;
+    border-radius: 5px;
+    height: 17rem;
+    color: #ffeb34;
+    }
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+}
+
+.s-label {
+    margin: 1rem;
+    display: inline-block;
+    width: 65px;
+}
+
+.nav-link {
+    padding: 40rem;
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    text-align: center;
+
+}
+
+.welcome {
+    color: #00a7ff;
+    font-family: 'Balsamiq Sans',
+        cursive;
+    font-size: 25px;
+    ;
+}
+
+#main-cards {
+    display: flex;
+    font-size: 16px;
+    color: #ffeb34;
+}
+
+#img-card {
+    background-color: #ffeb34;
+    flex-grow: 1;
+    height: 27rem;
+    margin-right: 2rem;
+    
+
+}
+
+#txt-card {
+    background-color: #00a7ff;
+    flex-grow: 2;
+    height: 27rem;
+    color: #ffeb34;
+    font-family: 'Balsamiq Sans',
+    cursive;
+    
+}
+
+#main-right-title{
+    font-size: 2rem;
+}
+#main-right-text{
+font-size: 1.5rem;
+}
+.pet-c-image{
+    display: block;
+    width: 100%;
+    max-height: 21rem;
+}

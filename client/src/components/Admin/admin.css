@@ -1,0 +1,53 @@
+.add-pet-form {
+  background-color: #ffeb34;
+  color: #00a7ff;
+  border-radius: 1rem;
+  width: 25rem;
+  padding: 1rem;
+}
+
+.users-dashboard {
+  background-color: #00a7ff;
+  color: #ffeb34;
+  border-radius: 1rem;
+  width: 45rem;
+  padding: 1rem;
+}
+
+.dashboard {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 19%);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+#yellow {
+  background-color: #ffeb34;
+  color: #00a7ff;
+}
+
+#blue7 {
+  background-color: #00a7ff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

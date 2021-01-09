@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.main-navbar {
+  height: 3.5rem;
+  border-radius: 10px;
+  background-color: #191687;
+  background-color: #ffeb34;
+  position: fixed;
+  /* margin-top: 10px; */
+  margin: 0 0 0 0;
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+  /* color: #191687; */
+}
+a,
+a:focus,
+a:hover,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.nav-item {
+  color: white;
+}
+
+.link {
+  color: white;
+  height: 100%;
+}
+
+
+.center {
+  margin: auto;
+  border: green 2px solid;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+#spinner {
+  width: 20rem;
+  height: 20rem;
+  z-index: 999;
+  overflow: show;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  /* position: fixed; */
+}
+
+#user-button {
+  background-color: #ffeb34;
+  /* border: none; */
+}
+
+#black-link {
+  color: #00a7ff;
+}
+
+#blue,
+#blue2,
+#blue3,
+#blue4,
+#blue6 {
+  background-color: #00a7ff;
+}

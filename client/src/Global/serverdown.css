@@ -1,0 +1,16 @@
+#err-div {
+  width: 65rem;
+  height: 25rem;
+  margin: 2rem auto 0 auto;
+}
+
+#err500 {
+  background: url("500error_0.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
