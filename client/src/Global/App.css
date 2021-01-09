@@ -5,17 +5,13 @@
 .main-navbar {
   height: 3.5rem;
   border-radius: 10px;
-  background-color: #191687;
   background-color: #ffeb34;
-  position: fixed;
-  /* margin-top: 10px; */
   margin: 0 0 0 0;
   border: 1px solid white;
 }
 
 a {
   color: white;
-  /* color: #191687; */
 }
 a,
 a:focus,
@@ -33,7 +29,6 @@ a:active {
   color: white;
   height: 100%;
 }
-
 
 .center {
   margin: auto;
