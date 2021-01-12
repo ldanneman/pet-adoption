@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Card, Carousel } from "react-bootstrap";
-import "./signin.scss";
+import "./signin-sm.css";
+import "./signin-lg.css";
 import PetDataContext from "../../Global/Context/context";
 import { Link } from "react-router-dom";
 

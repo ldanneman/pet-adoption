@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .dashboard {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: auto; */
+  }
+  .users-dashboard {
+    font-size: 1rem;
+    margin: 5px;
+    margin-top: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .user-grid {
+    /* grid-gap: 10px; */
+  }
+
+  .add-pet-form {
+    margin: 5px;
+    margin-top: 1rem;
+  }
+
+  #yellow {
+    font-size: 1rem;
+  }
+}

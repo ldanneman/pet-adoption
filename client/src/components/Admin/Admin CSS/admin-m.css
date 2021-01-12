@@ -1,0 +1,9 @@
+@media screen and (min-width: 600px) {
+  .users-dashboard {
+    font-size: 10px;
+  }
+
+  #yellow {
+    font-size: 10px;
+  }
+}

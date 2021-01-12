@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import AddPetForm from "./AddPetForm";
-import "./admin.css";
+import "./Admin CSS/admin-sm.css";
+import "./Admin CSS/admin-m.css";
+import "./Admin CSS/admin-lg.css";
 import axios from "axios";
 import { BACK_PORT } from "../../Global/var";
 import { useHistory } from "react-router-dom";
