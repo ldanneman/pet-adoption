@@ -59,6 +59,11 @@ a:active {
 }
 
 #blue,
+.link {
+  font-size: 8px;
+}
+
+#blue,
 #blue2,
 #blue3,
 #blue4,

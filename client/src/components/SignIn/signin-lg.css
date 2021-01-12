@@ -1,78 +1,73 @@
-.sign-in-div,
-.sign-up {
+@media screen and (min-width: 1000px) {
+  #main-cards {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #ffeb34;
+  }
+
+  .sign-in-div,
+  .sign-up {
     padding-top: 1rem;
+  }
 
-}
-
-.sign-in {
+  .sign-in {
     background-color: #00a7ff;
     border-radius: 5px;
     height: 20rem;
     color: #ffeb34;
-    }
+  }
 
-input {
+  input {
     border-radius: 5px;
     border: none;
     height: 2rem;
-}
+  }
 
-.s-label {
+  .s-label {
     margin: 1rem;
     display: inline-block;
     width: 65px;
-}
+  }
 
-.nav-link {
+  .nav-link {
     width: 6rem;
     height: 3rem;
     color: white;
     text-align: center;
     margin-top: 10px;
+  }
 
-}
-
-.welcome {
+  .welcome {
     color: #00a7ff;
-    font-family: 'Balsamiq Sans',
-        cursive;
+    font-family: "Balsamiq Sans", cursive;
     font-size: 25px;
-    ;
-}
+  }
 
-#main-cards {
-    display: flex;
-    font-size: 16px;
-    color: #ffeb34;
-}
-
-#img-card {
+  #img-card {
     background-color: #ffeb34;
     flex-grow: 1;
     height: 27rem;
     margin-right: 2rem;
-    
+  }
 
-}
-
-#txt-card {
+  #txt-card {
     background-color: #00a7ff;
     flex-grow: 2;
     height: 27rem;
     color: #ffeb34;
-    font-family: 'Balsamiq Sans',
-    cursive;
-    
-}
+    font-family: "Balsamiq Sans", cursive;
+  }
 
-#main-right-title{
+  #main-right-title {
     font-size: 2rem;
-}
-#main-right-text{
-font-size: 1.5rem;
-}
-.pet-c-image{
+  }
+  #main-right-text {
+    font-size: 1.5rem;
+  }
+  .pet-c-image {
     display: block;
     width: 100%;
     max-height: 21rem;
+  }
 }

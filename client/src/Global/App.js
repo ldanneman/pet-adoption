@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "./App-sm.css";
+import "./App-m.css";
 import MainSignedOut from "../components/SignIn/MainSignedOut";
 import NavBar from "./Navbar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
